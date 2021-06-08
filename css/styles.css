@@ -4,28 +4,6 @@ body {
 
 footer {visibility: hidden;}
 
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  
-.flex-container > div {
-    text-align: center;
-    line-height: 2rem;
-}
-
-.custom-notification{
-    border-left: 3px solid #FD0101;
-    border-right: 3px solid #FD0101;
-    border-bottom: 3px solid #FD0101;
-    position: fixed;
-    padding: 0.5rem;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
-    background-color: #0E1117;
-    top:0rem;
-}
-
 .loader,
 .loader:after {
   border-radius: 50%;
@@ -35,11 +13,9 @@ footer {visibility: hidden;}
 .loader {
   font-size: 10px;
   position: relative;
-  /* text-indent: -9999em; */
   border-top: 0.3em solid rgba(255, 255, 255, 0.2);
   border-right: 0.3em solid rgba(255, 255, 255, 0.2);
   border-bottom: 0.3em solid rgba(255, 255, 255, 0.2);
-  border-left: 0.3em solid #FD0101;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
