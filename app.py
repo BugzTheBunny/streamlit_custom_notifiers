@@ -20,6 +20,7 @@ def main():
         for i in range(5):
             st.write(i+1)
             time.sleep(1)
+
     st.write('Test of counting with spinner')
 
     with cc.stNotification("Counting till 5... with a spinner"):

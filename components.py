@@ -27,7 +27,7 @@ class stNotification:
         tc = st.get_option('theme.textColor')
         return {'pc': pc, "bc": bc, "sbc": sbc, "tc": tc}
 
-    def __init__(self, text, spinner=True):
+    def __init__(self, text="lorem", spinner=True):
         "Getting default theme and building style"
         styles = self.build_style()
 
